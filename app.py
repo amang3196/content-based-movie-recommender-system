@@ -49,7 +49,7 @@ if st.button('Recommend Movies'):
         st.text(recommended_movie_names[2])
         st.image(recommended_movie_posters[2])
         
-    col4, col5 = st.columns(3)
+    col4, col5, _ = st.columns(3)
     with col4:
         st.text(recommended_movie_names[3])
         st.image(recommended_movie_posters[3])
